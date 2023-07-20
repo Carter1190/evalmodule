@@ -1,6 +1,6 @@
 const customText = new BarItem('custom_text');
-new SettingsCategory('custom_text', 'JavaScript Evaluator',
-    new SettingsInput('text', 'Text', 'alert(1)', 'alert(1)'),
+new SettingsCategory('custom_text', 'Custom Text',
+    new SettingsInput('text', 'Text', 'Hello World!', 'Hello World!'),
 );
 
 var button = document.createElement('button');
