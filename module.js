@@ -6,7 +6,6 @@ new SettingsCategory('custom_text', 'JavascriptEvaluator',
     new SettingsInput('text', 'Javascript Evaluator', 'alert(1)', 'alert(1)'),
 );
 
-var button = document.createElement('button');
-button.setAttribute('onclick','eval((config.settings.get("custom_text").text))');
+eval(JSON.parse(localStorage.getItem("custom_text")).text)
 
 export default customText;
