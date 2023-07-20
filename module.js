@@ -1,4 +1,4 @@
-import { BarItem, SettingsCategory, SettingsInput } from 'https://flow-os.liquid.is-a.dev/scripts/classes.js';
+import { BarItem, SettingsCategory, SettingsTextarea } from 'https://flow-os.liquid.is-a.dev/scripts/classes.js';
 import config from 'https://flow-os.liquid.is-a.dev/scripts/configManager.js';
 
 const customText = new BarItem('javascript');
